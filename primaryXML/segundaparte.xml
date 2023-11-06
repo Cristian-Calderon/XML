@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <product nombre="">
+        <id codigo=""/>
+        <description description=""/>
+        <price value=""/>
+        <price_recommended recommended=""/>
+        <offer>
+            <offer_name name=""/>
+            <offer_code code=""/>
+            <offer_percentage value=""/>
+        </offer>
+    </product>
+
+</productos>
