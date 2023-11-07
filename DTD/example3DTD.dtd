@@ -1,0 +1,12 @@
+<!ELEMENT concessionari (cotxe+,furgoneta+)>
+<!ELEMENT cotxe (model, nou, color)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT nou (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+
+<!ELEMENT furgoneta (model, nou, color)>
+
+<!ATTLIST cotxe marca CDATA #REQUIRED>
+<!ATTLIST furgoneta marca CDATA #REQUIRED>
+<!ATTLIST nou valor CDATA #REQUIRED>
+<!-- Comentario-->
