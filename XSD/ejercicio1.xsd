@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="https://www.google.com/xsd">
+<xs:element name="esdeveniments">
+<xs:complexType>
+<xs:sequence>
+    <xs:esdeveniment>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="grup" type="xs:string"/>
+                <xs:element name="lloc" type="xs:string"/>
+                <xs:element name="data" type="xs:string"/>
+            </xs:sequence>  
+        </xs:complexType>
+    </xs:esdeveniment>
+</xs:sequence>  
+</xs:complexType>
+</xs:element>
+</xs:schema>
