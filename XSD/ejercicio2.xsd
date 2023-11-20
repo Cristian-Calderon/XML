@@ -1,0 +1,40 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://elpuig.xeill.net/MP04/XSD" elementFormDefault="qualified">
+    <xs:element name="concessionari">
+        <!-- Cuando tiene hijos es complex asociado con sequence -->
+        <xs:complexType>
+            <xs:sequence>
+                <!-- maxOccurs="unbounded" => ilimitado hijos  -->
+                <xs:element name="cotxe" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="model" type="xs:string" />
+                            <xs:element name="nou">
+                                <!-- Si tiene un atributo es complexType -->
+                                <xs:complexType>
+                                    <xs:attribute name="valor" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="color" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="marca" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="furgoneta" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="model" type="xs:string" />
+                            <xs:element name="nou">
+                                <xs:complexType>
+                                    <xs:attribute name="valor" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="color" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="marca" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

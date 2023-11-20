@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<esdeveniments xmlns:xsi="https://www.google.com/xsd" xsi:noNameSchemaLocation="ejercicio1.xsd">
-	<esdeveniment>
-		<grup>Oques Grasses</grup>
-		<lloc>El moll de la fusta</lloc>
-		<data>2017-09-12T22:30:00Z</data>
-		<entrada gratuita="si">0</entrada>
-	</esdeveniment>
-	<esdeveniment>
-		<grup>Zoo</grup>
-		<lloc>Sala Apolo</lloc>
-		<data>2018-01-03T02:45:00Z</data>
-		<entrada gratuita="no">25</entrada>
-	</esdeveniment>
-	<esdeveniment>
-		<grup>Txarango</grup>
-		<lloc>El Poble Espanyol</lloc>
-		<data>2018-06-24T00:00:00Z</data>
-		<entrada gratuita="no">17.5</entrada>
-	</esdeveniment>
+<esdeveniments xmlns="https://elpuig.xeill.net/MP04/XSD" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="https://elpuig.xeill.net/MP04/XSD ejercicio1.xsd">
+    <esdeveniment>
+        <grup>Oques Grasses</grup>
+        <lloc>El moll de la fusta</lloc>
+        <data>2017-09-12T22:30:00Z</data>
+        <entrada gratuita="si">0</entrada>
+    </esdeveniment>
+    <esdeveniment>
+        <grup>Zoo</grup>
+        <lloc>Sala Apolo</lloc>
+        <data>2018-01-03T02:45:00Z</data>
+        <entrada gratuita="no">25</entrada>
+    </esdeveniment>
+    <esdeveniment>
+        <grup>Txarango</grup>
+        <lloc>El Poble Espanyol</lloc>
+        <data>2018-06-24T00:00:00Z</data>
+        <entrada gratuita="no">17.5</entrada>
+    </esdeveniment>
 </esdeveniments>
