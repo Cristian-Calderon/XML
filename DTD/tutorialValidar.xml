@@ -1,0 +1,7 @@
+<!DOCTYPE XXX SYSTEM "tutorial.dtd">
+<XXX>
+<AAA mark="a1"/>
+<BBB id="b1"/>
+<CCC ref="a1"/>
+<DDD ref="a1 b1"/>
+</XXX>

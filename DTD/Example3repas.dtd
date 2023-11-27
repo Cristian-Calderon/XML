@@ -1,0 +1,16 @@
+<!-- concessionari es el nodo raiz tiene dos hijos cotxe que puede tener 1 o mas hijos y furgoneta que en este caso solo apareceria una vez-->
+<!ELEMENT concessionari (cotxe+, furgoneta)>
+<!-- cotxe tiene 3 hijos model, nou, color-->
+<!ELEMENT cotxe (model, nou, color)>
+<!-- model, nou, color contienen texto, y solo se declaran una vez-->
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT nou (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!-- furgoneta tiene 3 hijos model, nou, color-->
+<!ELEMENT furgoneta (model, nou, color)>
+<!-- La etiqueta cotxe tiene un atributo marca-->
+<!ATTLIST cotxe marca CDATA #REQUIRED>
+<!-- La etiqueta furgoneta tiene un atributo marca-->
+<!ATTLIST furgoneta marca CDATA #REQUIRED>
+<!-- La etiqueta nout tiene un atributo valor-->
+<!ATTLIST nou valor CDATA #REQUIRED>

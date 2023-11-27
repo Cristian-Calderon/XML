@@ -1,0 +1,11 @@
+<!-- esdeveniments = Es el nodo raiz -->
+<!ELEMENT esdeveniments (esdeveniment*)>
+<!-- esdeveviment = Tiene 4 hijos-->
+<!ELEMENT esdeveniment (grup, lloc, data, entrada)>
+<!-- grup, lloc, data, entrada contiene texto-->
+<!ELEMENT grup (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT entrada (#PCDATA)>
+<!-- entrada contiene un atributo que puede ser si o no, como valor predeterminado tiene "si"-->
+<!ATTLIST entrada gratuita (si|no) "si">

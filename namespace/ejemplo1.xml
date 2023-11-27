@@ -1,0 +1,15 @@
+<!-- Es agregar xmlns: con una letra para diferenciar -->
+<raiz xmlns:f="http://www.frutas.com"
+xmlns:co="http://www.coffe.com.es">
+    <f:table>
+        <f:tr>
+            <f:td>Apples</f:td>
+            <f:td>Bananas</f:td>
+        </f:tr>
+    </f:table>
+    <co:table>
+        <co:name>African Coffe Table</co:name>
+        <width>80</width>
+        <length>120</length>
+    </co:table>
+</raiz>

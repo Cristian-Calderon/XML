@@ -1,0 +1,13 @@
+<raiz xmlns:b="http://www.bancosol.com"
+xmlns:p="http://www.banquetaParques.com"
+xmlns:a="http://www.acuarioBarcelona.com">
+    <b:banco>
+        <b:nombre></b:nombre>
+    </b:banco>
+    <p:banco>
+        <p:color></p:color>
+    </p:banco>
+    <a:banco>
+        <a:numeroindividuos></a:numeroindividuos>
+    </a:banco>
+</raiz>

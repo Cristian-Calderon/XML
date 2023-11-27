@@ -1,5 +1,4 @@
 <!ELEMENT arrel (c:esdeveniments, t:esdeveniments)>
-
 <!ELEMENT c:esdeveniments (c:esdeveniment*)>
 <!ELEMENT c:esdeveniment (c:grup, c:lloc, c:data, c:entrada)>
 <!ELEMENT c:grup (#PCDATA)>
@@ -13,6 +12,8 @@
 <!ELEMENT t:lloc (#PCDATA)>
 <!ELEMENT t:data (#PCDATA)>
 <!ELEMENT t:entrada (#PCDATA)>
+
+
 
 <!ATTLIST arrel xmlns CDATA "http://www.elpuig.xeill.net/default">
 <!ATTLIST arrel xmlns:c CDATA "http://www.elpuig.xeill.net/concerts">

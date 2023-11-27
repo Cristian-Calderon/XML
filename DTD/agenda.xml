@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+    <contacte>
+        <nom></nom>
+        <cognom></cognom>
+        <tlf pais="Argentina"></tlf>
+        <email></email>
+        <dir>
+            <carrer></carrer>
+            <num></num>
+            <cp></cp>
+        </dir>
+    </contacte>
+</agenda>
