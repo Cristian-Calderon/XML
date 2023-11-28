@@ -1,0 +1,18 @@
+Historia sobre GNU/Linux
+El proyecto GNU fue iniciado por Richard Stallman con el objetivo
+de crear un sistema operativo completamente libre: el sistema 
+GNU. El 27 de septiembre de 1983 se anuncio publicamente el proyecto
+como el "Manifiesto GNU", que establecieron sus motivaciones para
+
+
+
+por primera vez en el grupo de noticias net.unix-wizards. Al anuncio
+
+de cooperacion que prevalecio en los tiempos iniciales de la comunidad
+de cooperacion que prevalecio en los tiempos iniciales de la comunidad
+de cooperacion que prevalecio en los tiempos iniciales de la comunidad
+
+
+realizar el proyecto GNU, entre las que destaca "volver al espiritu
+de cooperacion que prevalecio en los tiempos iniciales de la comunidad
+de usuarios de computadoras".
