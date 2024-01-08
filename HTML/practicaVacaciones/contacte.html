@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,66 +10,121 @@
     <main>
         <h1>Contacto</h1>
         <p>Ponerse en contacto</p>
-        <p>¿Escribir una línea para decir buenos días, pedir mi currículum o ver si podemos construir algo increíble juntos? ¡Me encantaría saber de ti!</p>
+        <p>¿Escribir una línea para decir buenos días, pedir mi currículum o ver si podemos construir algo increíble
+            juntos? ¡Me encantaría saber de ti!</p>
         <p>Complete su información en el formulario a continuación y espero tener noticias suyas.</p>
-        <form action="">
+        <form action="./formResult.html" method="get">
             <table>
                 <tr>
                     <td>
                         <label for="nombre">Nombre</label>
                     </td>
                     <td>
-                        <label for="apellido">Apellido</label>
-                    </td>
-                    <td>
-                        <label for="edad">Edad</label>
-                    </td>
-                    <td>
-                        <label for="mail">Correo electronico</label>
-                    </td>
-
-                </tr>
-                <tr>
-                    <td>
                         <input type="text" id="nombre" name="nombre" placeholder="Nombre">
                     </td>
                     <td>
+                        <label for="apellido">Apellido</label>
+                    </td>
+                    <td>
                         <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="edad">Edad</label>
                     </td>
                     <td>
                         <input type="number" id="edad" name="edad" placeholder="Edad">
                     </td>
                     <td>
+                        <label for="mail">Correo electronico</label>
+                    </td>
+                    <td>
                         <input type="email" id="mail" name="mail" placeholder="Correo electronico">
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Genero:</p>
+                    </td>
+                    <td colspan="2">
+                        <p>Idioma:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hombre">Hombre</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="hombre" name="genero" value="hombre" checked>
+                    </td>
+                    <td>
+                        <label for="catalan">Catalan</label>
+
+                    </td>
+                    <td>
+                        <input type="checkbox" id="catalan" name="idioma" value="catalan" checked>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mujer">Mujer</label> 
+                        
+                    </td>
+                    <td>
+                        <input type="radio" id="mujer" name="genero" value="mujer">
+
+                    </td>
+                    <td>
+                        <label for="castellano">Castellano</label>
+
+                    </td>
+                    <td>
+                        <input type="checkbox" id="castellano" name="idioma" value="castellano">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <label for="otros">Otros:</label>                  
+                    </td>
+                    <td>
+                        <input type="radio" id="otros" name="genero" value="otros">
+
+                    </td>
+                    <td>
+                        <label for="ingles">Ingles</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="ingles" name="idioma" value="ingles"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                        Tipos de Contacto:
+                    </td>
+                    <td colspan="3">
+                        <select id="cont" name="cont">
+                            <option value="Sugerencia">Sugerencia</option>
+                            <option value="Reclamacion">Reclamacion</option>
+                            <option value="Otras">Otras</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Comentario:
+                    </td>
+                    <td colspan="3">
+                        <textarea name="comentario" id="comentario" cols="50" rows="10"
+                            placeholder="Deja tu sugerencia"></textarea>
+                    </td>
+                </tr>
             </table>
-            <p>Genero:</p>
-            <label for="mujer">Mujer</label>
-            <input type="radio" id="mujer" name="genero" value="mujer" checked><br>
-            <label for="hombre">Hombre</label>
-            <input type="radio" id="hombre" name="genero" value="hombre"><br>
-            <label for="otros">Otros:</label>
-            <input type="radio" id="otros" name="genero" value="otros"><br>
-
-            <p>Idioma:</p>
-            <label for="catalan">Catalan</label>
-            <input type="checkbox" id="catalan" name="idioma" value="catalan" checked><br>
-            <label for="castellano">Castellano</label>
-            <input type="checkbox" id="castellano" name="idioma" value="castellano"><br>
-            <label for="ingles">Ingles</label>
-            <input type="checkbox" id="ingles" name="idioma" value="ingles"><br>
-
-            <p>Comentarios</p>
-            <select id="cont" name="cont">
-                <option value="Sugerencia">Sugerencia</option>
-                <option value="Reclamacion">Reclamacion</option>
-                <option value="Otras">Otras</option>
-            </select>
-
-            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Deja tu sugerencia"></textarea>
+            <button type="submit">Enviar</button>
         </form>
-
     </main>
 </body>
 </html>
