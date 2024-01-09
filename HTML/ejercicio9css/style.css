@@ -1,0 +1,21 @@
+.principal{
+    width: 280px;
+    height: 290px;
+    border: 1px solid black;
+}
+/*  celeste: #78a4d200 
+    rojo: #ff393900
+    verdes: #39ff9e00
+    amarillo: #ffff0000
+*/
+
+.celeste{
+    width: 160px;
+    height: 120px;
+    background: #2e78c5;
+}
+.amarillo{
+    background:#ffff00;
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,13 @@
+caption{
+    color: blue;
+    font-weight: bold;
+}
+
+.fondo{
+    background-color: rgb(204, 202, 202);
+}
+
+table, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
