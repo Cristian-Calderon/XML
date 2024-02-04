@@ -1,20 +1,153 @@
-body{
+:root{
+    /* Colores */
+    --blue:#4360eb;
+    --green:#48d8a4;
+    --skin:#f3e6e3;
+    --pink:#AC87C5;
+    --bluewhite: #798ad8;
+    --white: #fff;
+    --gray: rgb(64, 59, 59);
+}
+
+*{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+html{
+    font-size: 62.5%;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 1.4rem;
+    color: var(--white);
+}
+
+.font-big{
+    font-size: 2rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+p{
+    margin: 0;
+}
+/* Cabecera */
 header{
+    /* position: fixed; */
     width: 100%;
     display: flex;
-    background-color: skyblue;
+    background-color: var(--blue);    
     justify-content: end;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.9;
 }
 
 .head{
-    background-color: red;
     width: 50%;
-    height: 60px;
+    height: 80px;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-around;
+    font-style: italic;
+}
+
+li {
+    list-style: none ;
+}
+
+
+/* Informacion */
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#terminal{
+    width: 12%;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    filter: contrast(50%);
+    transform: rotate(20deg) ;
+    
+}
+
+.name{
+    background-color: var(--green);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 230px; 
+    
+}
+
+.name-center{
+    width: 45%;
+    height: 60%;
+}
+
+.angle{
+    width: 100%;
+    height: 40%;
+    background-color: var(--skin);
+    clip-path: polygon(0 35%, 0 100%, 100% 100%)
+
+}
+
+#world{
+    width: 12%;
+    position: absolute;
+    right: 110px;
+    bottom: 320px;
+    filter: contrast(50%);
+    transform: rotate(-50deg);
+    z-index: 2;
+}
+
+/* Description */
+.description{
+    background:var(--skin);
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-content{
+    background: red;
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-content img{
+    width: 22%;
+    border-radius:50%;
+}
+
+
+/* Skills */
+.skills{
+    background: var(--pink);
+}
+
+
+/* Works */
+.work{
+    background: var(--bluewhite);
+}
+
+/* Footer */
+footer{
+    background: var(--skin);
 }
