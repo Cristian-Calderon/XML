@@ -6,7 +6,7 @@
     --pink: #AC87C5;
     --bluewhite: #798ad8;
     --white: #fff;
-    --gray: rgb(80, 80, 80);
+    --gray: rgb(53, 51, 51);
 }
 
 * {
@@ -36,7 +36,6 @@ p {
 
 /* Cabecera */
 header {
-    /* position: fixed; */
     width: 100%;
     display: flex;
     background-color: var(--blue);
@@ -57,6 +56,10 @@ header {
 
 li {
     list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -124,11 +127,9 @@ li {
 }
 
 .description-content {
-    /* background: red;*/
     width: 60%;
-    height: 60%;
+    height: 80%;
     display: flex;
-    /* align-items: flex-start; */
 }
 
 .description-about {
@@ -136,6 +137,12 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.description-photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .description-photo img {
@@ -146,6 +153,23 @@ li {
 
 .description-self {
     width: 60%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.description-button button{
+    width: 180px;
+    height: 40px;
+    background-color: var(--white);
+    border: none;
+    border-radius: 20px;
+}
+button{
+    font-size: 1rem;
 }
 
 /* video */
@@ -153,23 +177,58 @@ li {
     width: 100%;
     background: var(--pink);
     height: 500px;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+iframe{
+    width: 720px;
+    height: 420px;
 }
 
 
 /* Skills */
 .skills {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: var(--pink);
 }
 
+.skills-content{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skills-content ul{
+display: flex;
+justify-content: space-around;
+}
 
 /* Works */
 .work {
     background: var(--bluewhite);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-content{
+    width: 60%;
+    height: 60%;
 }
 
 /* Footer */
 footer {
     background: var(--skin);
+    text-align: center;
+    color: var(--gray);
 }
