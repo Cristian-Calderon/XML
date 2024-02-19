@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>News</title>
+  <link href="https://www.w3schools.com"/>
+  <content>Paises exigen mas sueldo</content>
+
+
+  <entry>
+    
+    <title>RSS Tutorial</title>
+    
+    <link href="https://www.w3schools.com/xml/xml_rss.asp" />
+    
+    <content>New RSS tutorial on W3Schools</content>
+  </entry>
+
+  <entry>
+    <title>XML Tutorial</title>
+    <link href="https://www.w3schools.com/xml" />
+    <content>New XML tutorial on W3Schools</content>
+  </entry>
+
+</feed>

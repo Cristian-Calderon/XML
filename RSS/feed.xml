@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<!-- version 1 = RDF Site Summary -->
+<!-- elemento raiz rss -->
+<rss version="1.0">
 
+  <!-- Channel elemento principal-->
 <channel>
     <!-- El channel tiene 3 caracteres obligatorios: titulo, link, description -->
   <title>News</title>
   <link>https://www.w3schools.com</link>
   <description>Paises exigen mas sueldo</description>
 
+  <!-- Cada item corresponde a un articulo -->
+  <!-- Se componene de title, link, description -->
   <item>
+    <!-- title el titulo del elemento -->
     <title>RSS Tutorial</title>
+    <!-- link un vinculo hacia el elemento o su URL -->
     <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+    <!-- description de menos de 500 caracteres -->
     <description>New RSS tutorial on W3Schools</description>
   </item>
 
