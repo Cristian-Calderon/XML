@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+<feed xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/dc/elements/1.1/">
+
+    <!-- obligatorias -->
+    <!-- <id>urn:uuid:asasd<id/ -->
+        <!-- updated> 2023-02-02T10:02:11Z -->
+        <!-- title -->
+		<link><![CDATA[https://cosmocaixa.org]]></link>
+        <!-- CAMBIAMOS EL LINK /<link href="https://cosmocaixa.org"></link> -->
+		<title>Museu de la Ciència | CosmoCaixa Barcelona | Fundació “la Caixa”</title>
+		<pubDate>Thu, 02 Feb 2023 10:02:11 +0000</pubDate>
+		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
+
+		<entry>
+            <id>https://cosmocaixa.org/12345</id>
+			<title>Arts del Moviment i Ciència | Cicles | Museu de la ciència, CosmoCaixa Barcelona</title>
+			<link href="https://cosmocaixa.org/ca/p/arts-del-moviment-i-ciencia_c49093183"></link>
+
+			<creator>Administrator</creator>
+			<category term="Site News"></category>
+			
+			<summary>Consulta la informació, programació i compra d'entrades per al cicle Arts del Moviment i Ciència al recinte Museu de la ciència, CosmoCaixa Barcelona</summary>
+			<publised>Thu, 02 Feb 2023 12:02:10 +0200</publised>
+            <author>
+                <name></name>
+            </author>
+		</entry>
+		<entry>
+			<guid>604297103</guid>
+			<title>Caçadors de planetes | Altres | Museu de la Ciència CosmoCaixa</title>
+			<link>https://cosmocaixa.org/ca/p/cacadors-de-planetes_a13651529</link>
+			<dc:creator>Administrator</dc:creator>
+			<category>Site News</category>
+			<subcategory>Home News</subcategory>
+			<description>Consulta la informació, programació i compra d'entrades per a l'activitat Caçadors de planetes al recinte Museu de la ciència, CosmoCaixa Barcelona</description>
+			<pubDate>Thu, 02 Feb 2023 12:02:09 +0200</pubDate>
+		</entry>
+		<entry>
+			<guid>2454425117</guid>
+			<title>Planetari bombolla | Tallers | Museu de la Ciència CosmoCaixa</title>
+			<link>https://cosmocaixa.org/ca/p/planetari-bombolla_a25988347</link>
+			<dc:creator>Administrator</dc:creator>
+			<category>Site News</category>
+			<subcategory>Home News</subcategory>
+			<description>Consulta la informació, programació i compra d'entrades per a l'activitat Planetari bombolla al recinte Museu de la ciència, CosmoCaixa Barcelona</description>
+			<pubDate>Thu, 02 Feb 2023 12:02:08 +0200</pubDate>
+		</entry>
+</>

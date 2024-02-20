@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 		<!--	created with www.mysitemapgenerator.com	-->
+		<!-- http://www.datypic.com/sc/atom/ns-atom.html -->
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
+	<feed>
 		<link>https://cosmocaixa.org</link>
 		<description>Museu de la Ciència | CosmoCaixa Barcelona | Fundació “la Caixa”</description>
 		<language>es</language>
 		<pubDate>Thu, 02 Feb 2023 10:02:11 +0000</pubDate>
 		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
 
-		<item>
-			<guid isPermaLink="False">1946294900</guid>
+		<entry>
+			<guid isPermaLink="false">1946294900</guid>
 			<title>Arts del Moviment i Ciència | Cicles | Museu de la ciència, CosmoCaixa Barcelona</title>
 			<link>https://cosmocaixa.org/ca/p/arts-del-moviment-i-ciencia_c49093183</link>
 			<dc:creator>Administrator</dc:creator>
 			<category>Site News</category>
-			<subcategory>Home News</subcategory>
+			<category>Home News</category>
 			<description>Consulta la informació, programació i compra d'entrades per al cicle Arts del Moviment i Ciència al recinte Museu de la ciència, CosmoCaixa Barcelona</description>
 			<pubDate>Thu, 02 Feb 2023 12:02:10 +0200</pubDate>
-		</item>
-	</channel>
+		</entry>
+	</feed>
 </rss>
