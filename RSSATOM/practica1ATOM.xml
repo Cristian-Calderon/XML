@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Juego online</title>
+    <link href="http://www.ejemplo2.com/es" />
+    <subtitle>Juegos de ordenadores</subtitle>
+    <rights>MIT 2024, Calderon-Dev</rights>
+    <author>
+        <name>Cristian Calderon</name>
+        <email>cris@cris.com</email>
+    </author>
+    <updated>2024-03-02T18:30:00Z</updated>
+    <generator>GardelHome System 2.1</generator>
+    <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+
+    <logo>http://www.images.com/22/Vuelo.png</logo>
+
+    <entry>
+        <id>http://www.ejemplo.com/loquesa/</id>
+        <title>Dota 2</title>
+        <link href="http://www.barrras.com/loquefe/22" />
+        <summary>Un juego de 10 personas equipos de 5 players</summary>
+        <author>
+            <name>Cristian Calderon</name>
+            <email>cris@cris.com </email>
+        </author>
+        <updated>2024-03-02T18:30:00Z</updated>
+        <published>2024-03-02T18:30:00-03:00</published>
+
+    </entry>
+
+</feed>

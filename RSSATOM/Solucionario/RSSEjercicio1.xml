@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Fher's RSS feed</title>
+        <description>Mola mucho esto... Bueno, no tanto</description>
+        <link>http://www.elpuig.xeill.net/rss</link>
+        <copyright>2020 Example.com All right reserved</copyright>
+        <pubDate>Sun, 06 Sep 2009 16:20:00 +0000</pubDate>
+
+        <item>
+            <title>Example entry 1</title>
+            <description>1: Here is some text containing an interesting description</description>
+            <link>http://www.example/com/blog/post/1</link>
+            <guid isPermaLink="false">151ed345-dafa-473f-9d65-af6ed218841a</guid>
+            <pubData>Sun, 06 Sep 2009 16:20:00 +0000</pubData>
+        </item>
+
+        <item>
+            <title>Example entry 2</title>
+            <description>2: Here is some text containing an interesting description</description>
+            <link>http://www.example.com/blog/post/2</link>
+            <guid isPermaLink="false">http://www.example.com/blog/post/2</guid>
+            <pubDate>Sun, 06 Sep 2009 16:20:00 +0000</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Juego online</title>
+        <link>http://www.ejemplo2.com/es</link>
+        <description>Juegos de ordenadores</description>
+        <language>es</language>
+        <copyright>MIT 2024, Calderon-Dev</copyright>
+        <managingEditor>cris@cris.com</managingEditor>
+        <webMaster>cris@cris.com</webMaster>
+        <pubDate>Sat, 02 Mar 2024 11:20:00 +0000</pubDate>
+        <lastBuildDate>Fri, 01 Mar 2024 09:20:00 +0000</lastBuildDate>
+        <generator>GardelHome System 2.1</generator>
+
+        <image>
+            <url>http://www.images.com/22/Vuelo.png</url>
+            <title>Vuelo</title>
+            <link>http://www.Videosjuevos2.com/Vuelo</link>
+        </image>
+
+        <item>
+            <guid isPermaLink="false">23231312321sdsdAA</guid>
+            <title>Dota 2</title>
+            <link>http://www.barrras.com/loquefe/22</link>
+            <description>Un juego de 10 personas equipos de 5 players</description>
+            <author>cris@cris.com Cristian Calderon</author>
+            <comments>http://www.zzz.com/entry/comments</comments>
+            <pubDate>Thu, 29 Feb 2024 19:20:00 +0000</pubDate>
+
+        </item>
+    </channel>
+</rss>
