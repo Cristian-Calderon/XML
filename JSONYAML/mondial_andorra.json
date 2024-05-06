@@ -1,0 +1,108 @@
+{
+  "mondial": [
+    {
+      "continent": 1,
+      "id": "f0_199",
+      "name": "Europe"
+    },
+    {
+      "continent": 2,
+      "id": "f0_123",
+      "name": "Asia"
+    },
+    {
+      "continent": 3,
+      "id": "f0_126",
+      "name": "America"
+    },
+    {
+      "continent": 4,
+      "id": "f0_129",
+      "name": "Australia/Oceania"
+    },
+    {
+      "continent": 5,
+      "id": "f0_132",
+      "name": "Africa"
+    },
+    {
+      "country": 6,
+      "population": 72766,
+      "gdp_total": 1000,
+      "datacode": "AN",
+      "population_growth": 2.96,
+      "car_code": "AND",
+      "infant_mortality": 2.2,
+      "government": "parliamentary democracy that retains as its heads of state a coprincipality",
+      "id": "f0_144",
+      "total_area": 450,
+      "capital": "f0_1464",
+      "countries": [
+        {
+          "name": "Andorra",
+          "city": [
+            {
+              "country": "f0_144",
+              "latitude": "42.3",
+              "longitude": "1.3",
+              "id": "f0_1464",
+              "cities": [
+                {
+                  "name": "Andorra la Vella",
+                  "population": [
+                    {
+                      "quantity": 15600,
+                      "year": 87
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ethnicgroups": [
+        {
+          "value": "French",
+          "percentage": "6"
+        }
+      ],
+      "ethnicgroups": [
+        {
+          "value": "Spanish",
+          "percentage": "61"
+        }
+      ],
+      "ethnicgroups": [
+        {
+          "value": "Andorran",
+          "percentage": "30"
+        }
+      ],
+      "religions": [
+        {
+          "value": "Roman Catholic",
+          "percentage": "100"
+        }
+      ],
+      "encompassed": [
+        {
+          "continent": "f0_119",
+          "percentage": "100"
+        }
+      ],
+      "border": [
+        {
+          "country": "f0_213",
+          "length": "60"
+        }
+      ],
+      "border": [
+        {
+          "country": "f0_385",
+          "length": "65"
+        }
+      ]
+    }
+  ]
+}

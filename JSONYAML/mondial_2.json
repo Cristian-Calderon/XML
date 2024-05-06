@@ -1,0 +1,27 @@
+{
+    "mondial" :{
+        "continents":[
+          {
+            "id":"f0_119",
+            "name": "Europe"
+          },
+          {
+            "id":"f0_123",
+            "name": "Asia"
+          },
+          {
+            "id":"f0_126",
+            "name": "America"
+          },
+          {
+            "id":"f0_129",
+            "name": "Australia/Oceania"
+          },
+          {
+            "id":"f0_132",
+            "name": "Africa"
+          }
+        ]
+
+    }
+}

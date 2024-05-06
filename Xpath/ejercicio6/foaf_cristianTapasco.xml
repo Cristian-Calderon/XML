@@ -1,0 +1,36 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Cristian Tapasco</foaf:name>
+<foaf:title>Dr</foaf:title>
+<foaf:givenname>Cristian</foaf:givenname>
+<foaf:family_name>Tapasco</foaf:family_name>
+<foaf:nick>ckatz</foaf:nick>
+<foaf:mbox_sha1sum>fb68e901bfbb91353e90160cf077e416788f3ea0</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="www.ctapasco.es"/>
+<foaf:phone rdf:resource="tel:9324082705"/>
+<foaf:workplaceHomepage rdf:resource="www.cristianTapasco.com"/>
+<foaf:workInfoHomepage rdf:resource="pagina creada unicamente para conmemorar a nuestro compañero LEVI"/>
+<foaf:schoolHomepage rdf:resource="I.E.S Puig Castellar"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>levi</foaf:name>
+<foaf:mbox_sha1sum>b681bb9e687eb95daef8f293f203e2b0a47084ef</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>pedro</foaf:name>
+<foaf:mbox_sha1sum>18eb05178bab4e867591cda5538e81b03bf3c748</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>cristian</foaf:name>
+<foaf:mbox_sha1sum>35e68828b4d07684a9cdae1555dcf2e4f3255311</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
